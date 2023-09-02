@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradientes em CSS</title>
+
+    <style>
+        *{height: 100%;}
+        body { background-image: linear-gradient(to top, #4066CB, #A737AE, #F64D50, #EB4662,#f8c842);
+            background-attachment: fixed;
+        }
+    </style>
+
+</head>
+<h1>Testando Gradientes</h1>
+<body>
+
+<h2>Usando a paleta de cores e as TAGs style e background image podemos fazer fundos gradientes </h2>
+    
+</body>
+</html>
