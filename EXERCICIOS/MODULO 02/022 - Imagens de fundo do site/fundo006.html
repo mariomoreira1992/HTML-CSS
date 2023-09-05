@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo dixo de tela</title>
     <style>
         body{ 
             height: 100vh;
@@ -12,11 +12,16 @@
             background-position: center center;
             background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*shorthand para background 
+                > color > image > position >  repeat > size > attachment
+            */
             
         }
         main{ 
         background-color: white;
-        width: 400px;
+        max-width: 400px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
